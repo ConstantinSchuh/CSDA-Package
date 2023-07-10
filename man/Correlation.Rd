@@ -23,5 +23,5 @@ the correlation coefficient and the description of the correlation.
 x <- c(1, 2, 3, 4, 5)
 y <- c(2, 4, 6, 8, 10)
 Correlation(x, y)
-Returns: List(correlation = 1, description = "Positive correlation")
+# Returns: List(correlation = 1, description = "Positive correlation")
 }
