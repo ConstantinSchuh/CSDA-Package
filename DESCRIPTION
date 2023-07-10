@@ -1,0 +1,10 @@
+Package: CSDA
+Title: A simple R Package for Easy Calculations.
+Version: 0.1.0
+Authors@R: 
+    person("Constantin", "Schuh", , "constantin.schuh@gmail.com", role = c("aut", "cre"),
+    person("Dara", "Alifa", , "dara.alifa@gmail.com", role = c("aut", "cre"),
+Description: The Package simplifies complex computations in R, offering intuitive functions for arithmetic operations, statistical analysis, and data transformations. Streamline your analytical workflows with this user-friendly package, enabling effortless calculations and enhancing your data analysis tasks.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
