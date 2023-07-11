@@ -1,4 +1,4 @@
-Package: CSDA-Package
+Package: CSDA
 Title: A simple R Package for Easy Calculations.
 Version: 0.1.0
 Authors@R: c(
