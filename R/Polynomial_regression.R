@@ -9,7 +9,7 @@
 #' @examples
 #' x <- c(1, 2, 3, 4, 5)
 #' y <- c(2, 4, 6, 8, 10)
-#' result <- polynomial_regression(x, y, degree = 2)
+#' result <- Polynomial_regression(x, y, degree = 2)
 #' result$coefficients
 #' # Expected Output: (Intercept)   predictors1   predictors2
 #' #                  0.000000e+00  2.000000e+00 -1.718126e-16
@@ -18,7 +18,7 @@
 #' #                  2  4  6  8 10
 #'
 #' @export
-polynomial_regression <- function(x, y, degree) {
+Polynomial_regression <- function(x, y, degree) {
   if (length(x) != length(y)) {
     stop("The lengths of x and y must be equal.")
   }

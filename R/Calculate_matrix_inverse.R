@@ -6,12 +6,12 @@
 #' @return The inverse of the input matrix.
 #' @examples
 #' matrix <- matrix(c(2, 3, 1, 4), nrow = 2)
-#' inverse_matrix <- calculate_matrix_inverse(matrix)
+#' inverse_matrix <- Calculate_matrix_inverse(matrix)
 #' # Returns:  0.8 -0.2
 #' #          -0.6  0.4
 #'
 #' @export
-calculate_matrix_inverse <- function(matrix) {
+Calculate_matrix_inverse <- function(matrix) {
   if (!is.matrix(matrix) || nrow(matrix) != ncol(matrix)) {
     stop("The input must be a square matrix.")
   }

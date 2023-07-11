@@ -10,11 +10,11 @@
 #' @examples
 #' x <- c(1, 2, 3, 4, 5)
 #' y <- c(2, 4, 6, 8, 10)
-#' correlation(x, y)
+#' Correlation(x, y)
 #' # Returns: List(correlation = 1, description = "Positive correlation")
 #'
 #' @export
-correlation <- function(x, y) {
+Correlation <- function(x, y) {
   correlation <- cor(x, y)
   if (correlation > 0) {
     description <- "Positive correlation"
