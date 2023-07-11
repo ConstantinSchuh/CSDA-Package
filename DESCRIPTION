@@ -1,4 +1,4 @@
-Package: CSDA
+Package: CSDA-Package
 Title: A simple R Package for Easy Calculations.
 Version: 0.1.0
 Authors@R: c(
@@ -8,3 +8,6 @@ Description: The Package simplifies complex computations in R, offering intuitiv
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
