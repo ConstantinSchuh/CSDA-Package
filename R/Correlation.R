@@ -12,7 +12,8 @@
 #' y <- c(2, 4, 6, 8, 10)
 #' Correlation(x, y)
 #' # Returns: List(correlation = 1, description = "Positive correlation")
-
+#'
+#' @export
 Correlation <- function(x, y) {
   correlation <- cor(x, y)
   if (correlation > 0) {

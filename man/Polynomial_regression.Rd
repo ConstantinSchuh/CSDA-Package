@@ -29,4 +29,5 @@ result$coefficients
 result$predicted_values
 # Expected Output: 1  2  3  4  5
 #                  2  4  6  8 10
+
 }

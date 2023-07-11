@@ -20,4 +20,5 @@ matrix <- matrix(c(2, 3, 1, 4), nrow = 2)
 inverse_matrix <- calculate_matrix_inverse(matrix)
 # Returns:  0.8 -0.2
 #          -0.6  0.4
+
 }
