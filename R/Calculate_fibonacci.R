@@ -5,11 +5,11 @@
 #' @param limit An integer specifying the maximum value in the Fibonacci sequence.
 #' @return A numeric vector containing the Fibonacci sequence.
 #' @examples
-#' Calculate_fibonacci(10)
+#' calculate_fibonacci(10)
 #' # Returns: 0, 1, 1, 2, 3, 5, 8
 #'
 #' @export
-Calculate_fibonacci <- function(limit) {
+calculate_fibonacci <- function(limit) {
   if (limit < 0) {
     stop("The limit must be a non-negative integer.")
   }

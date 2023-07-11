@@ -11,7 +11,7 @@
 #' #          -0.6  0.4
 #'
 #' @export
-Calculate_matrix_inverse <- function(matrix) {
+calculate_matrix_inverse <- function(matrix) {
   if (!is.matrix(matrix) || nrow(matrix) != ncol(matrix)) {
     stop("The input must be a square matrix.")
   }

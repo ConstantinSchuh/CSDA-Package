@@ -18,7 +18,7 @@
 #' #                  2  4  6  8 10
 #'
 #' @export
-Polynomial_regression <- function(x, y, degree) {
+polynomial_regression <- function(x, y, degree) {
   if (length(x) != length(y)) {
     stop("The lengths of x and y must be equal.")
   }
